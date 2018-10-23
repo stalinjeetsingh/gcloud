@@ -1,7 +1,7 @@
 # Go to jenkins and select new item and freestyle project
 # In general tab select "this project is parameterized" and pass a varible
 # here I am putting name: Hostname
-Aslo below sin build tab select : Exceute shell script and put the below commands there.
+Also below there is a build tab select : Exceute shell script and put the below commands there.
 #that is all. It will create a machine when you run  "Build with Parameters" and give name of your choose in name field.
 
 gcloud compute instances create $Hostname --zone us-central1-c
